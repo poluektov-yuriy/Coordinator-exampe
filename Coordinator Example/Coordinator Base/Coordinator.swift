@@ -14,10 +14,7 @@ protocol Coordinator {
     func start()
     
     var flowCompletionHandler: FlowCompletionHandler? { get set }
-    
 }
-
-
 
 protocol ModuleOutput {
     
@@ -26,7 +23,4 @@ protocol ModuleOutput {
     associatedtype Output
     
     var moduleOutputHandler: ModuleOutputHandler? { get set }
-    
 }
-
-

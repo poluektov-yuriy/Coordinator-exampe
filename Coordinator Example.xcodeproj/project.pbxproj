@@ -90,15 +90,11 @@
 		A617C00625864BE300187501 /* Coordinator Example */ = {
 			isa = PBXGroup;
 			children = (
-				A617C00725864BE300187501 /* AppDelegate.swift */,
-				A6B6CD0E2589D4A600FD2C65 /* AppCoordinator.swift */,
-				A6B6CD2C258A1A4A00FD2C65 /* Coordinator Base */,
 				A6B6CD172589DB5F00FD2C65 /* Flows */,
-				A617C00D25864BE300187501 /* Main.storyboard */,
-				A617C01025864BE500187501 /* Assets.xcassets */,
-				A617C01225864BE500187501 /* LaunchScreen.storyboard */,
-				A617C01525864BE500187501 /* Info.plist */,
+				A6B6CD2C258A1A4A00FD2C65 /* Coordinator Base */,
+				A6B6CD52258B3DE700FD2C65 /* Res and Configs */,
 				A6062B8F2588C7ED00170649 /* Helpers */,
+				A617C01525864BE500187501 /* Info.plist */,
 			);
 			path = "Coordinator Example";
 			sourceTree = "<group>";
@@ -106,6 +102,7 @@
 		A6B6CD172589DB5F00FD2C65 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				A6B6CD51258B3DD300FD2C65 /* App Flow */,
 				A6B6CD272589FF5300FD2C65 /* Details Flow */,
 				A6B6CD182589DB6600FD2C65 /* Item List Flow */,
 			);
@@ -160,6 +157,25 @@
 				A6B6CD49258B3A0600FD2C65 /* ItemListFlowModulesFactory.swift */,
 			);
 			path = Factories;
+			sourceTree = "<group>";
+		};
+		A6B6CD51258B3DD300FD2C65 /* App Flow */ = {
+			isa = PBXGroup;
+			children = (
+				A617C00725864BE300187501 /* AppDelegate.swift */,
+				A6B6CD0E2589D4A600FD2C65 /* AppCoordinator.swift */,
+			);
+			path = "App Flow";
+			sourceTree = "<group>";
+		};
+		A6B6CD52258B3DE700FD2C65 /* Res and Configs */ = {
+			isa = PBXGroup;
+			children = (
+				A617C00D25864BE300187501 /* Main.storyboard */,
+				A617C01025864BE500187501 /* Assets.xcassets */,
+				A617C01225864BE500187501 /* LaunchScreen.storyboard */,
+			);
+			path = "Res and Configs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
